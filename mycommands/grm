@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-#File: grm
-git rm --cache $1
-[[ $? -eq 0 ]] && echo "grm: git rm successfull"  || echo "grm: git rm not successfull"
-rm -rf $1
-[[ $? -eq 0 ]] && echo "grm: rm -rf successfull" || echo "grm: rm -rf not successfull"
